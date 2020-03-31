@@ -1,0 +1,15 @@
+camunda.bpm.admin-user:
+  id: admin
+  password: admin
+
+spring:
+  application:
+    name: rest
+server:
+  port: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true

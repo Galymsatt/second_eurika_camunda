@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c70f4cf-71d6-4287-bf51-1746969daf19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External task - initiator/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/External task - initiator/target/classes/kz/project/one/TestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/FeignRight.iml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/FeignRight.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/one-lab-profile.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/FeignClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/External_initiator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/ServiceFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/classes/kz/project/one/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/classes/kz/project/one/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/classes/kz/project/one/FeignClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/classes/kz/project/one/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/classes/kz/project/one/ServiceFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/classes/kz/project/one/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/classes/kz/project/one/model/UserStatisticModel.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/target/" />
+    <ignored path="$PROJECT_DIR$/External task - initiator/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/GreetingClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mys</find>
+      <find>h2</find>
+      <find>profi</find>
+      <find>spring-boot-starter-web</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/FeignClientApplication.java" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Project.java" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/ServiceFeignClient.java" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Example.java" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/TestService.java" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/resources/application.proporties" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/pom.xml" />
+        <option value="$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/MainController.java" />
+        <option value="$PROJECT_DIR$/External task - initiator/pom.xml" />
+        <option value="$PROJECT_DIR$/External task - initiator/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/GreetingClient.java" />
+        <option value="$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/TestService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="one-lab-profile" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="9" />
+    <option name="y" value="18" />
+    <option name="width" value="1347" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585577104012" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Galymzhan\Desktop\Internship(One)\Camunda\Camunda_example\REST\FeignClientCamuda-dependabot-maven-jackson.version-2.10.1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Galymzhan\Desktop\Internship(One)\Camunda\Camunda_example\REST\FeignClientCamuda-dependabot-maven-jackson.version-2.10.1\src\main\resources" />
+      <recent name="C:\Users\Galymzhan\Desktop\Internship(One)\Camunda\Camunda_example\OnelabMissingProcess\FeignClientCamuda-dependabot-maven-jackson.version-2.10.1\src\main\resources" />
+      <recent name="C:\Users\Galymzhan\Desktop\OnelabMissingProcess\FeignClientCamuda-dependabot-maven-jackson.version-2.10.1\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="External_initiator" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="one-lab-profile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.project.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.project.one.External_initiator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.External_initiator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c70f4cf-71d6-4287-bf51-1746969daf19" name="Default Changelist" comment="" />
+      <created>1575726368370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575726368370</updated>
+      <workItem from="1575726371283" duration="1139000" />
+      <workItem from="1575886865768" duration="2366000" />
+      <workItem from="1575889471082" duration="475000" />
+      <workItem from="1575890064045" duration="1803000" />
+      <workItem from="1575892819240" duration="2420000" />
+      <workItem from="1575966136897" duration="988000" />
+      <workItem from="1575967250583" duration="10958000" />
+      <workItem from="1576057148861" duration="9594000" />
+      <workItem from="1583931108438" duration="2117000" />
+      <workItem from="1584181613927" duration="7722000" />
+      <workItem from="1584281921753" duration="19324000" />
+      <workItem from="1584375364810" duration="308000" />
+      <workItem from="1584446001291" duration="147000" />
+      <workItem from="1584519818034" duration="2217000" />
+      <workItem from="1584523947000" duration="1710000" />
+      <workItem from="1585378947645" duration="438000" />
+      <workItem from="1585379840039" duration="2461000" />
+      <workItem from="1585396634445" duration="4952000" />
+      <workItem from="1585570497392" duration="2433000" />
+      <workItem from="1585591144051" duration="169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="73741000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.24129555" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="BPMN Editor" order="9" weight="0.32955465" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3179396" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30550623" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14387211" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="BPMNPalette" order="10" weight="0.25263157" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24129555" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="BPMN Editor" order="9" weight="0.32955465" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3179396" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30550623" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14387211" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32955465" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32955465" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="BPMNPalette" order="10" weight="0.25263157" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/TestService.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/controller/StatisticsController.java" />
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/model/UserStatisticModel.java" />
+    <entry file="file://$PROJECT_DIR$/External task - initiator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/one-lab-profile.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1855">
+          <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/FeignRight.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Example.java" />
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/Project.java" />
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/java/kz/project/one/ServiceFeignClient.java" />
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/resources/workflow.bpmn" />
+    <entry file="file://$PROJECT_DIR$/FeignClientCamuda-dependabot-maven-jackson.version-2.10.1/src/main/resources/application.proporties" />
+    <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ee45f9f-c6ab-42b0-b480-b330a469f99a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="197" column="19" lean-forward="true" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/external_initiator.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/External_initiator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/External task - initiator/src/main/java/kz/project/one/GreetingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FeignClientCamuda-dependabot-maven-jackson.version-2.10.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

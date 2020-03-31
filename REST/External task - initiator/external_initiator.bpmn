@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_0yn4pjv" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.7.0">
+  <bpmn:process id="external_initiator" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" camunda:initiator="Men">
+      <bpmn:outgoing>Flow_0e2wnlu</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_0e2wnlu" sourceRef="StartEvent_1" targetRef="Activity1" />
+    <bpmn:userTask id="Activity1" name="1" camunda:assignee="${Men}">
+      <bpmn:extensionElements>
+        <camunda:formData>
+          <camunda:formField id="name" label="NAME" type="string" />
+        </camunda:formData>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0e2wnlu</bpmn:incoming>
+      <bpmn:outgoing>Flow_1asbaaw</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_1asbaaw" sourceRef="Activity1" targetRef="Activity2" />
+    <bpmn:serviceTask id="Activity2" name="2" camunda:type="external" camunda:topic="initiator">
+      <bpmn:incoming>Flow_1asbaaw</bpmn:incoming>
+      <bpmn:outgoing>Flow_0hxt49h</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_0hxt49h" sourceRef="Activity2" targetRef="Activity3" />
+    <bpmn:endEvent id="Event_0goj6pn">
+      <bpmn:incoming>Flow_0cvrikq</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0cvrikq" sourceRef="Activity3" targetRef="Event_0goj6pn" />
+    <bpmn:userTask id="Activity3" name="3" camunda:assignee="${Men}">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:outputParameter name="greeting" />
+        </camunda:inputOutput>
+        <camunda:formData>
+          <camunda:formField id="greeting" label="Name" type="string" />
+        </camunda:formData>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0hxt49h</bpmn:incoming>
+      <bpmn:outgoing>Flow_0cvrikq</bpmn:outgoing>
+    </bpmn:userTask>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="external_initiator">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0e2wnlu_di" bpmnElement="Flow_0e2wnlu">
+        <di:waypoint x="215" y="117" />
+        <di:waypoint x="270" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Activity_0yap9zs_di" bpmnElement="Activity1">
+        <dc:Bounds x="270" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1asbaaw_di" bpmnElement="Flow_1asbaaw">
+        <di:waypoint x="370" y="117" />
+        <di:waypoint x="420" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Activity_123rpm0_di" bpmnElement="Activity2">
+        <dc:Bounds x="420" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0hxt49h_di" bpmnElement="Flow_0hxt49h">
+        <di:waypoint x="520" y="117" />
+        <di:waypoint x="590" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Event_0goj6pn_di" bpmnElement="Event_0goj6pn">
+        <dc:Bounds x="752" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0cvrikq_di" bpmnElement="Flow_0cvrikq">
+        <di:waypoint x="690" y="117" />
+        <di:waypoint x="752" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Activity_1xjmig9_di" bpmnElement="Activity3">
+        <dc:Bounds x="590" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
